@@ -5,11 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    public void Chargement(){
-        SceneManager.LoadScene("scenes");
-
-
+    public void ChargementChambre(){
+        SceneManager.LoadScene("chambre");
     }
-   
+
+    public void ChargementSalleDeBain(){
+        SceneManager.LoadScene("salle de bain");
+    }
+
+    public void ChargementSalon(){
+        SceneManager.LoadScene("salon");
+    }
 
 }
